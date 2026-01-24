@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Rosettes Boutique Hotel</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Gilda+Display&display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <!--<a class="logo" href="index.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>-->
+                <a class="logo" href="index.html">
+                    <h2>Rosettes <span>Boutique Hotel</span></h2>
+                </a>
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <!-- <li class="nav-item"> <a class="nav-link active dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home <i class="ti-angle-down"></i></a> -->
+                    <!--<ul class="dropdown-menu">
+                            <li><a href="index.html" class="dropdown-item active"><span>Parallax Image</span></a></li>
+                            <li><a href="index2.html" class="dropdown-item"><span>Slider</span></a></li>
+                            <li><a href="index3.html" class="dropdown-item"><span>Video</span></a></li>
+                            <li><a href="index4.html" class="dropdown-item"><span>Slideshow</span></a></li>
+                        </ul>-->
+                    <!-- </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="index.html#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Rooms & Suites <i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="rooms.html" class="dropdown-item"><span>Rooms 1</span></a></li>
+                            <li><a href="rooms2.html" class="dropdown-item"><span>Rooms 2</span></a></li>
+                            <li><a href="room-details.html" class="dropdown-item"><span>Room Details</span></a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item"><a class="nav-link" href="restaurant.html">Restaurant</a></li>
+
+                    <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="index.html#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pages <i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services.html" class="dropdown-item"><span>Services</span></a></li>
+                            <li><a href="facilities.html" class="dropdown-item"><span>Facilities</span></a></li>
+                            <li><a href="gallery.html" class="dropdown-item"><span>Gallery</span></a></li>
+                            <li><a href="team.html" class="dropdown-item"><span>Team</span></a></li> -->
+                    <!----<li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="index.html#"><span>Other Pages <i class="ti-angle-right"></i></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="404.html" class="dropdown-item"><span>404 Page</span></a></li>
+                                    <li><a href="https://duruthemes.com/demo/html/cappa/boutique-hotel/coming-soon.html" class="dropdown-item"><span>Coming Soon</span></a></li>
+                                </ul>
+                            </li>-->
+                    <!-- </ul>
+                    </li> -->
+                    <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="index.html#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">News <i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="news.html" class="dropdown-item"><span>News 1</span></a></li>
+                            <li><a href="news2.html" class="dropdown-item"><span>News 2</span></a></li>
+                            <li><a href="post.html" class="dropdown-item"><span>Post Page</span></a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Restaurant Slider -->
+    <header class="header slider">
+        <div class="owl-carousel owl-theme">
+            <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+            <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/restaurant/1.jpg"></div>
+            <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/restaurant/2.jpg"></div>
+            <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/restaurant/3.jpg"></div>
+            <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/restaurant/4.jpg"></div>
+        </div>
+        <!-- arrow down -->
+        <div class="arrow bounce text-center">
+            <a href="restaurant.html#" data-scroll-nav="1" class=""> <i class="ti-arrow-down"></i> </a>
+        </div>
+    </header>
+    <!-- Restaurant Content -->
+    <section class="rooms-page section-padding" data-scroll-index="1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-11 col-md-12 text-center"> <span>
+                        <i class="star-rating"></i>
+                        <i class="star-rating"></i>
+                        <i class="star-rating"></i>
+                        <i class="star-rating"></i>
+                        <i class="star-rating"></i>
+                    </span>
+                    <div class="section-subtitle">An Experience for the Senses</div>
+                    <div class="section-title">The Restaurant & Bar</div>
+
+                    <p class="mb-30">
+                        At Rosettes Boutique Hotel, Kampala, The Restaurant & Bar offers a refined culinary journey in
+                        an atmosphere of timeless elegance.
+                        Designed for comfort and sophistication, the space blends modern luxury with warm hospitality,
+                        creating the perfect setting for
+                        both intimate dining and relaxed social gatherings.
+                    </p>
+
+                    <p class="mb-30">
+                        Our menu features a carefully curated selection of international and local flavors, crafted by
+                        skilled chefs using the finest
+                        ingredients. From signature dishes to expertly mixed cocktails, every detail is thoughtfully
+                        prepared to deliver an exceptional
+                        dining experience worthy of a boutique luxury hotel.
+                    </p>
+
+                    <h6>Hours</h6>
+                    <div class="text-center">
+                        <p>Breakfast: 7.00 am – 11.00 am (Daily)</p>
+                        <p>Lunch: 12.00 noon – 2.00 pm (Daily)</p>
+                        <p>Dinner: From 6.30 pm – Last order at 10.00 pm (Daily)</p>
+                    </div>
+
+                    <h6>Dress Code</h6>
+                    <p>Smart casual attire is recommended to maintain an elegant dining atmosphere.</p>
+
+                    <h6>Terrace</h6>
+                    <p>
+                        The terrace is open for drinks only, offering a relaxed outdoor setting to enjoy premium
+                        beverages
+                        in the heart of Kampala.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Restaurant Menu -->
+    <section id="menu" class="restaurant-menu menu section-padding">
+        <div class="container">
+
+            <!-- Title -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-subtitle"><span>Luxury Hotel</span></div>
+                    <div class="section-title">Restaurant Menu</div>
+                </div>
+            </div>
+
+            <!-- Tabs -->
+            <div class="row">
+                <div class="tabs-icon col-md-10 offset-md-1 text-center">
+                    <div class="owl-carousel owl-theme">
+                        <div id="tab-1" class="active item">
+                            <h6>Salads</h6>
+                        </div>
+                        <div id="tab-2" class="item">
+                            <h6>Soups</h6>
+                        </div>
+                        <div id="tab-3" class="item">
+                            <h6>Pastas</h6>
+                        </div>
+                        <div id="tab-4" class="item">
+                            <h6>Wraps</h6>
+                        </div>
+                        <div id="tab-5" class="item">
+                            <h6>Breakfast</h6>
+                        </div>
+                        <div id="tab-6" class="item">
+                            <h6>Pork</h6>
+                        </div>
+                        <div id="tab-7" class="item">
+                            <h6>Chicken</h6>
+                        </div>
+                        <div id="tab-8" class="item">
+                            <h6>Beef</h6>
+                        </div>
+                        <div id="tab-9" class="item">
+                            <h6>Fish</h6>
+                        </div>
+                        <div id="tab-10" class="item">
+                            <h6>Curries</h6>
+                        </div>
+                        <div id="tab-11" class="item">
+                            <h6>Between the Breads</h6>
+                        </div>
+                        <div id="tab-12" class="item">
+                            <h6>Snacks</h6>
+                        </div>
+                        <div id="tab-13" class="item">
+                            <h6>Extras</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTENT -->
+            <div class="restaurant-menu-content col-md-12">
+
+                <!-- SALADS -->
+                <div id="tab-1-content" class="cont active">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Caesar Salad <span class="price">30 UGX</span></h5>
+                                <p>Crisp lettuce, grilled chicken strips, parmesan, croutons, Caesar dressing.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Rosettes Salad <span class="price">30 UGX</span></h5>
+                                <p>Tomatoes, cucumber, onion, olives, feta cheese, vinaigrette dressing.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Greek Salad <span class="price">30 UGX</span></h5>
+                                <p>Crisp lettuce, sweet peppers, boiled egg, beef or chicken, signature dressing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SOUPS -->
+                <div id="tab-2-content" class="cont">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Vegetable Soup <span class="price">20 UGX</span></h5>
+                                <p>Seasonal vegetables simmered with fresh herbs.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Mushroom Soup <span class="price">25 UGX</span></h5>
+                                <p>Creamy mushroom soup with fresh local mushrooms.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Chicken Soup <span class="price">25 UGX</span></h5>
+                                <p>Classic chicken soup with vegetables and herbs.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Oxtail Soup <span class="price">30 UGX</span></h5>
+                                <p>Slow-cooked oxtail soup with rich herbs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PASTAS -->
+                <div id="tab-3-content" class="cont">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Spaghetti Bolognese <span class="price">37 UGX</span></h5>
+                                <p>Al dente pasta tossed in rich meat sauce.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Carbonara <span class="price">37 UGX</span></h5>
+                                <p>Creamy sauce with bacon and parmesan.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Primavera <span class="price">37 UGX</span></h5>
+                                <p>Pasta with fresh seasonal vegetables.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Penne Alfredo <span class="price">37 UGX</span></h5>
+                                <p>Creamy alfredo sauce with grilled chicken.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WRAPS -->
+                <div id="tab-4-content" class="cont">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Chicken Wrap <span class="price">35 UGX</span></h5>
+                                <p>Grilled chicken, lettuce, cocktail sauce, warm tortilla.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Vegetarian Wrap <span class="price">35 UGX</span></h5>
+                                <p>Fresh vegetables wrapped in soft tortilla.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BREAKFAST -->
+                <div id="tab-5-content" class="cont">
+                    <div class="row">
+
+                        <!-- LEFT COLUMN -->
+                        <div class="col-md-5">
+
+                            <div class="menu-info">
+                                <h5>ROSETTES SPECIAL <span class="price">38 UGX</span></h5>
+                                <p>
+                                    Your choice of eggs, crispy bacon, sausages, grilled tomato,
+                                    sautéed mushrooms, home fries, toast and baked beans.
+                                    <br><br>
+                                    <strong>Served with your choice of tea or juice</strong>
+                                </p>
+                            </div>
+
+                            <div class="menu-info">
+                                <h5>FLUFFY PANCAKE <span class="price">25 UGX</span></h5>
+                                <p>
+                                    Buttermilk pancakes sprinkled with icing sugar,
+                                    whipped cream, maple syrup, and served with fresh fruit.
+                                </p>
+                            </div>
+
+                            <div class="menu-info">
+                                <h5>BREAKFAST BURRITO <span class="price">35 UGX</span></h5>
+                                <p>
+                                    Crispy diced sausages with scrambled eggs, bell peppers,
+                                    onions, tomatoes, breakfast potatoes and cheese wrapped
+                                    in a flour tortilla.
+                                    <br><br>
+                                    <strong>Served with your choice of tea or juice</strong>
+                                </p>
+                            </div>
+
+                            <div class="menu-info">
+                                <h5>BACON & CHEESE OMELETTE <span class="price">33 UGX</span></h5>
+                                <p>
+                                    A cheese-filled omelette prepared with diced bacon,
+                                    sausages, onions, bell peppers and cheddar cheese,
+                                    served with golden home fries, toasted bread and a side
+                                    of fresh salsa.
+                                    <br><br>
+                                    <strong>Served with your choice of tea or juice</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- RIGHT COLUMN -->
+                        <div class="col-md-5 offset-md-2">
+
+                            <div class="menu-info">
+                                <h5>VEGGIE OMELETTE <span class="price">25 UGX</span></h5>
+                                <p>
+                                    A cheese-filled omelette with sautéed spinach, mushrooms,
+                                    zucchini, tomatoes, bell peppers and onions served with
+                                    seasonal fruits, guacamole and home fries.
+                                </p>
+                            </div>
+
+                            <div class="menu-info">
+                                <h5>ROLEX COMBO <span class="price">23 UGX</span></h5>
+                                <p>
+                                    House-made chapatti with egg, onions and tomatoes
+                                    served with home fries, spinach and toast.
+                                </p>
+                            </div>
+
+                            <div class="menu-info">
+                                <h5>KATOGO <span class="price">30 UGX</span></h5>
+                                <p>
+                                    Stewed matooke with tender beef cubes, served with greens,
+                                    avocado and fresh fruit. A classic Ugandan breakfast favorite.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Pork -->
+                <div id="tab-6-content" class="cont">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Pork Chops <span class="price">40 UGX</span></h5>
+                                <p>Juicy pork chops seasoned with a blend of herbs and spices, grilled to perfection.
+                                </p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Pork Ribs <span class="price">40 UGX</span></h5>
+                                <p>Tender slow-cooked pork ribs coated in a special marinade and grilled.</p>
+                            </div>
+                        </div>
+                        <!-- RIGHT COLUMN -->
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Pan-Fried Pork <span class="price">40 UGX</span></h5>
+                                <p>Pork cubes seasoned with spices and pan-fried with bell peppers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Chicken -->
+                <div id="tab-7-content" class="cont">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Herb-Roasted Chicken <span class="price">38 UGX</span></h5>
+                                <p>Marinated chicken thighs and drumsticks roasted to perfection.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Grilled Chicken Breast <span class="price">40 UGX</span></h5>
+                                <p>Perfectly grilled chicken breast, tender and flavorful.</p>
+                            </div>
+                        </div>
+                        <!-- RIGHT COLUMN -->
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>BBQ Chicken Wings <span class="price">38 UGX</span></h5>
+                                <p>Smoky chicken wings glazed in rich barbecue sauce.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Beef -->
+                <div id="tab-8-content" class="cont">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Beef Steak <span class="price">42 UGX</span></h5>
+                                <p>Tender beef steak grilled to your preference with pepper sauce.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Beef Stir-Fry <span class="price">42 UGX</span></h5>
+                                <p>Stir-fried beef with vibrant bell peppers and garlic sauce.</p>
+                            </div>
+                        </div>
+                        <!-- RIGHT COLUMN -->
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Beef Skewers <span class="price">40 UGX</span></h5>
+                                <p>Juicy marinated beef cubes grilled on skewers.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Pan-Fried Goat <span class="price">42 UGX</span></h5>
+                                <p>Tender goat meat pan-fried with special spices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fish -->
+                <div id="tab-9-content" class="cont">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Whole Fish <span class="price">60 UGX</span></h5>
+                                <p>Steamed, deep-fried or oven-grilled tilapia served with sauce.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>English-Style Fish <span class="price">40 UGX</span></h5>
+                                <p>Classic battered fish, deep-fried to golden perfection.</p>
+                            </div>
+                        </div>
+                        <!-- RIGHT COLUMN -->
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Grilled Tilapia Fillet <span class="price">40 UGX</span></h5>
+                                <p>Flaky tilapia fillet seasoned with herbs and spices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Curries -->
+                <div id="tab-10-content" class="cont">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Chicken Curry <span class="price">40 UGX</span></h5>
+                                <p>Tender chicken simmered in a rich curry sauce.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Fish Curry <span class="price">40 UGX</span></h5>
+                                <p>Fresh fish cooked in a flavorful curry sauce.</p>
+                            </div>
+                        </div>
+                        <!-- RIGHT COLUMN -->
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Vegetable Curry <span class="price">35 UGX</span></h5>
+                                <p>A hearty mix of seasonal vegetables gently cooked in curry sauce.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Between the Breads -->
+                <div id="tab-11-content" class="cont">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Chicken Mayo Sandwich <span class="price">32 UGX</span></h5>
+                                <p>Grilled chicken, onions, mayo, and cheese.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Steak Sandwich <span class="price">34 UGX</span></h5>
+                                <p>Grilled steak, onions, cheese, and mayo.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Club Sandwich <span class="price">38 UGX</span></h5>
+                                <p>Grilled chicken, bacon, egg, lettuce, and mayo.</p>
+                            </div>
+                        </div>
+                        <!-- RIGHT COLUMN -->
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Beef Burger <span class="price">40 UGX</span></h5>
+                                <p>Beef patty with melted cheese, caramelized onions and lettuce.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Chicken Burger <span class="price">40 UGX</span></h5>
+                                <p>Grilled chicken breast, cheese, pickles and lettuce.</p>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Deluxe Burger <span class="price">45 UGX</span></h5>
+                                <p>Double beef patties, cheese, bacon, grilled tomato and lettuce.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Snacks -->
+                <div id="tab-12-content" class="cont">
+                    <div class="row">
+
+                        <!-- LEFT COLUMN -->
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Samosas (Beef/Veg) <span class="price">10 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Chicken Pie <span class="price">9 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Sausages (Beef/Chicken/Pork) <span class="price">10 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Fish Fingers <span class="price">30 UGX</span></h5>
+                            </div>
+                        </div>
+
+                        <!-- RIGHT COLUMN -->
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Cassava Fries <span class="price">10 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Boiled Eggs <span class="price">10 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Chicken Lollipops <span class="price">25 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Muffins (Vanilla/Banana/Chocolate) <span class="price">9 UGX</span></h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <!-- EXTRAS -->
+                <div id="tab-13-content" class="cont">
+                    <div class="row">
+
+                        <!-- LEFT COLUMN -->
+                        <div class="col-md-5">
+                            <div class="menu-info">
+                                <h5>Plantain <span class="price">15 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Vegetable Rice <span class="price">15 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Potato Wedges <span class="price">15 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Masala Fries <span class="price">18 UGX</span></h5>
+                            </div>
+                        </div>
+
+                        <!-- RIGHT COLUMN -->
+                        <div class="col-md-5 offset-md-2">
+                            <div class="menu-info">
+                                <h5>Mushroom Sauce <span class="price">15 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Mayonnaise <span class="price">10 UGX</span></h5>
+                            </div>
+                            <div class="menu-info">
+                                <h5>Creamy Spinach <span class="price">15 UGX</span></h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/1.jpg"
+        data-overlay-dark="5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-12 text-center">
+                    <div class="testimonials">
+                        <div class="testimonials-box">
+                            <div class="owl-carousel owl-theme">
+
+                                <div class="item">
+                                    <span>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                    </span>
+                                    <h5>Exceptional Stay Experience</h5>
+                                    <p>
+                                        Rosettes Boutique Hotel offers refined elegance, outstanding comfort, and truly
+                                        personalized service.
+                                        From arrival to departure, every detail was thoughtfully curated, making our
+                                        stay both relaxing and memorable.
+                                    </p>
+                                    <div class="info">
+                                        <div class="author-img">
+                                            <img src="img/team/1.jpg" alt="">
+                                        </div>
+                                        <div class="cont">
+                                            <h6>Andreas Brown</h6>
+                                            <span>Luxury Traveler</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <span>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                    </span>
+                                    <h5>A True Boutique Gem</h5>
+                                    <p>
+                                        An intimate hotel with prime comfort and warm hospitality. The atmosphere is
+                                        calm, elegant,
+                                        and perfectly suited for both business and leisure travelers seeking something
+                                        special in Kampala.
+                                    </p>
+                                    <div class="info">
+                                        <div class="author-img">
+                                            <img src="img/team/2.jpg" alt="">
+                                        </div>
+                                        <div class="cont">
+                                            <h6>Emily White</h6>
+                                            <span>Guest Review</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <span>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                    </span>
+                                    <h5>Luxury, Comfort & Care</h5>
+                                    <p>
+                                        Every moment at Rosettes Boutique Hotel felt effortless and refined.
+                                        The service, ambiance, and attention to detail truly define premium hospitality.
+                                    </p>
+                                    <div class="info">
+                                        <div class="author-img">
+                                            <img src="img/team/3.jpg" alt="">
+                                        </div>
+                                        <div class="cont">
+                                            <h6>Daniel Martin</h6>
+                                            <span>Verified Guest</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-column footer-about">
+                            <h3 class="footer-title">About Hotel</h3>
+                            <p class="footer-about-text">Welcome to the best five-star deluxe hotel in Kampla. Our hotel
+                                features tastefully designed rooms and suites, each crafted to deliver a serene
+                                atmosphere, modern amenities, and a sense of understated luxury.</p>
+                            <div class="footer-language"> <i class="lni ti-world"></i>
+                                <select onchange="location = this.value;">
+                                    <option value="#">English</option>
+                                    <option value="#">German</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="footer-column footer-explore clearfix">
+                            <h3 class="footer-title">Explore</h3>
+                            <ul class="footer-explore-list list-unstyled">
+                                <li><a href="index.html">Home</a></li>
+                                <!-- <li><a href="rooms.html">Rooms & Suites</a></li> -->
+                                <li><a href="restaurant.html">Restaurant</a></li>
+
+                                <li><a href="about.html">About Hotel</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-column footer-contact">
+                            <h3 class="footer-title">Contact</h3>
+                            <p class="footer-contact-text">5 Mudeka Road, Nakawa, Kampala, Uganda
+                                <br>Uganda
+                            </p>
+                            <div class="footer-contact-info">
+                                <p class="footer-contact-phone"><span class="flaticon-call"></span> (+256) 764201046</p>
+                                <p class="footer-contact-mail">reservations@rosettes.co.ug</p>
+                            </div>
+                            <div class="footer-about-social-list"> <a
+                                    href="https://www.instagram.com/_rosetteshotel/"><i class="ti-instagram"></i></a> <a
+                                    href="index.html#"><i class="fa-brands fa-x-twitter"></i></a> <a
+                                    href="index.html#"><i class="ti-youtube"></i></a> <a
+                                    href="https://www.facebook.com/people/Rosettes-Hotel/pfbid0TDnZPLf9mqkKNcTKjmEkgnTkr3u2rj3kmvWoCwW9GWvkGjJKZ9JfsC7o9Cm7jRF2l/?mibextid=b06tZ0"><i
+                                        class="ti-facebook"></i></a> <a href="index.html#"><i
+                                        class="fa-brands fa-tiktok"></i></a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-inner">
+                            <p class="footer-bottom-copy-right">© Copyright 2025 by <a href="index.html#">Rosettes
+                                    Boutique Hotel</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.5.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
