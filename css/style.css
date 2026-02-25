@@ -5768,3 +5768,8 @@ select {
         text-align: center;
     }
 }
+.single-facility i {
+    font-size: 40px;
+    color: #b95c47; /* same gold color */
+    margin-bottom: 20px;
+}
